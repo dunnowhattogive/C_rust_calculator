@@ -1,0 +1,11 @@
+[package]
+name = "C_rust_calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.69.0"
+libc = "0.2"
+cc = "1.0"
