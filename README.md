@@ -55,3 +55,14 @@ Generation should be a part of the build process
 4. Tests are optional. 
 
 Unit tests are optional but beneficial. (But I am adding them.)
+
+
+===============================================================================================================================================
+
+Usage:
+
+cargo build => builds the application
+
+cargo test => tests the application (so far just the add,subtract,multiply and divide functionalities)
+
+cargo run -- <functionality> <num1> <num2> => gives the output
